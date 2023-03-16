@@ -1,0 +1,22 @@
+# Hospital Admission (proses pendaftaran data pasien rawat inap)
+begin 
+    READ AND WRITE "pendaftaran"
+    IF "Pasien baru is FALSE"
+        READ AND WRITE " Data tracer dan RMK pasien lama " 
+        PRINT " RMK " 
+        READ AND WRITE "Data rawat inap" with String
+        READ AND WRITE "nama_pasien" with String
+        READ AND WRITE "tgl_lahir" with Date
+        READ AND WRITE "jenis_kelamin" with String
+        READ AND WRITE "alamat" with String
+        READ AND WRITE "diagnosa" with String
+        READ AND WRITE "Menentukan kelas rawat inap"
+        READ AND WRITE "Pasien / kel melakukan TTD persetujuan rawat"
+        READ AND WRITE "RMK rawat inap disiapkan"
+        READ AND WRITE "Pasien membayar administrasi pembayaran di kasir"
+        READ AND WRITE "Berkas diserahkan kepada petugas rawat inap"
+    ELSE 
+       Return  PRINT "RMK dan RRK"
+done
+
+
